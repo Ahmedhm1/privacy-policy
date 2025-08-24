@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last Updated: <span id="current-date"></span></p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We only process Instagram comments containing specific keywords ("raw") and do not store any personal data permanently.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>When you comment with the keyword "raw" on our Instagram content, we:</p>
+    <ul>
+        <li>Reply to your comment with "Check your DMs ✅"</li>
+        <li>Send you a direct message with the requested content</li>
+        <li>Immediately delete any processed data</li>
+    </ul>
+
+    <h2>3. Data Storage</h2>
+    <p>We do not store any personal information. All data is processed in real-time and immediately deleted after sending the response message.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>We use Instagram's API services strictly for the purpose of responding to comments and sending direct messages. We do not share your data with any third parties.</p>
+
+    <h2>5. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us through Instagram Direct Message.</p>
+
+    <script>
+        // Auto-update date
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
